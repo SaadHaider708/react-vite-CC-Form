@@ -33,7 +33,7 @@ An application that allows users to enter their credit or debit card details thr
 
 - **Redux:** The use of redux was very much needed for this as there was a lot of state managent to take a look into, I tried using hooks like *useState* or *useRef* for the state managment but they were a lot jumbled up and almost unmanageable for anyone new looking at the code so I opted to use redux for this as it provides a pretty lean component file.
 
-- **React-bootstrap**:I used bootstrap forthe main layout of the UI, I used the npm version of Bootstrap asit was easy to setup and the best candidate to desing the layout of this specific app.
+- **React-bootstrap**:I used bootstrap for the main layout of the UI, I used the npm version of Bootstrap asit was easy to setup and the best candidate to desing the layout of this specific app.
 
 - **CSS Modules:** The main styling tool used was good old CSS but with a twist because it keeps your Styling scoped to the component you care using it it which is way better than to have overlapping styles especialy when you build your app
 
@@ -63,7 +63,7 @@ After the dependencies are installed you can go ahead and run it using the comma
 npm run dev
 ```
 
-After doing its thing, it should open up a new window otherwise in the terminal (VSCode) it should give you the address to go to in my case it was **localhost:5171**
+After doing its thing, it should open up a new browser window, otherwise if you check your terminal (VSCode) it should give you the address to go to in my case it was **localhost:5171**
 
 ##### Bonus:
 

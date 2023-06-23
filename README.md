@@ -4,16 +4,16 @@ Welcome to my project repository, this project is actually a task given to me fo
 
 I am open to any feedback, additional ideas.
 
-So lets go ahead and let me give you a breif overview about it.
+So let's go ahead and let me give you a brief overview about it.
 
 ## React-vite Credit Card Form
-I have deployed the app here so feel free to check it out: https://react-vite-cc-form.netlify.app/
+I have deployed the app here, feel free to check it out: https://react-vite-cc-form.netlify.app/
 
-If for some reason the link dosn't work for some reason then shoot me an email which I will link at the end of thi readme.
+If the link dosn't work for some reason then shoot me an email which I will link at the end of this document.
 
 ## What is it?
 
-An application that allows users to enter their credit or debit card details through a user-friendly and responsive interface. The app includes 5 input fields which offer validation, and upon entering the card details, a beautiful card UI is displayed, filling in the corresponding data for each input field.
+An application that allows users to enter their credit or debit card details through a user-friendly and responsive interface. The app includes 5 input fields which offer validation, and upon entering the card details, an attractive card UI is displayed, filling in the corresponding data for each input field.
 
 #### Features
 
@@ -27,7 +27,7 @@ An application that allows users to enter their credit or debit card details thr
 
 - **Form-Validation:** The app offers users friendly error messages if the user enters any invalid input based on the type of data to be entered 
 
-## What Tools I used?
+## What Tools I Used?
 
 - **React.js:** I used React as the main tool for development of this project, its created using **Vite** which helps a great deal in the build processand is light-weight and easy to get started with on a project of this level. 
 

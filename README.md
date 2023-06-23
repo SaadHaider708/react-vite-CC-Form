@@ -52,7 +52,7 @@ or just download the zip file, extranct it and open the project folder with your
 
 When your project is cloned you can open it up using your IDE and run this command in your terminal which will install all the required dependencies
 ```bash
-npm install
+npm install or npm i
 ```
 
 ## How to Run it?

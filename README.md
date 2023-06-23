@@ -65,6 +65,20 @@ npm run dev
 
 After doing its thing, it should open up a new window otherwise in the terminal (VSCode) it should give you the address to go to in my case it was **localhost:5171**
 
+##### Bonus:
+
+In case you wish to bundle the project, it is just as simple as setting it up, no Webpack, no Parcel,no configuration needed just use the following command when ready.
+
+```bash
+npm run build
+```
+
+Once its done building, it will create a **dist** in you project directory which will contain your bundled code all in one file ready for deployment.
+
+
+***That's it you're good to go***
+
+
 ## What's mising?
 
 I tried to add the feature to persist the user inputs on page reloads but that is still a work in progress, otherwise it should work as expected I am open to feedback and or any questions.

@@ -79,7 +79,7 @@ Once its done building, it will create a **dist** in you project directory which
 ***That's it you're good to go***
 
 
-## What's mising?
+## What's missing?
 
 I tried to add the feature to persist the user inputs on page reloads but that is still a work in progress, otherwise it should work as expected I am open to feedback and or any questions.
 

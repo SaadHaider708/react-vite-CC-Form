@@ -1,0 +1,312 @@
+.container {
+
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    left: 10%;
+    top:12%; 
+}
+  
+.card {
+    height: 250px;
+    width: 380px;
+    padding: 10px;
+    position: absolute;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.20);
+    border-radius: 20px;
+}
+  
+#frontCard {
+    /* background-image: url("/src/images/bg-card-front.png");
+    background-size: cover; */
+    background-color: blueviolet;
+    position: relative;
+    min-height: 240px;
+}
+  
+#backCard {
+    background-image: url("/src/images/bg-card-back.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 240px;
+    background-color: silver;
+    position: relative;
+    margin-top: 32px;
+    left: 18%;
+    
+}
+
+.flag {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+.flagImage1 {
+    background-color: rgb(238, 236, 236);
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.flagImage2 {
+    border: 1px solid rgb(238, 236, 236);
+    height: 15px;
+    width: 15px;
+    border-radius: 20px;
+    margin-left: 16px;
+}
+
+
+.cardNumber {
+    margin-top: 48px;
+}
+
+.cardInfo {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardInfoName {    
+    margin-left: 32px;
+}
+
+.cardInfoDate {
+    margin-right: 32px;
+}
+
+.securityNumber {
+    margin-top: 100px;
+    text-align: right;
+    margin-right: 48px;
+}
+
+.text {
+    font-size: 24px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.20em;
+}
+
+.small {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+@media only screen and (min-width: 1456px) {
+    .container {
+        left: 20% !important;
+        top:29%; 
+    }
+    
+  }
+
+  @media only screen and (max-width: 991px) {
+      .container {
+          flex-direction: column-reverse;
+          position: relative;
+          left: 0;
+          top:0; 
+          justify-content: center;
+          align-items: center;
+          z-index: 0;
+      }
+        
+      .card {
+        height: 230px;
+        width: 330px;
+
+      }
+      #frontCard {
+        z-index: 1;
+        bottom: 100px;
+        right: 74px;
+        top: -116px;
+    }
+          
+    #backCard {
+
+        min-height: auto; 
+        position: relative;
+        left: 5%;
+        
+    }
+    
+    .text {
+        font-size: 19px;
+    }
+    .small {
+        font-size: 12px;
+    }
+    .securityNumber {
+        margin-top: 91px !important;
+        text-align: right;
+        margin-right: 48px;
+    }
+  
+    }
+
+
+    @media only screen and (max-width: 580px) {
+
+        #frontCard {
+            z-index: 1;
+            bottom: 100px;
+            right: 48px;
+            top: -116px;
+        }
+              
+        #backCard {
+    
+            min-height: 240px; 
+            position: relative;
+            left: 10%;
+            
+        }
+
+        
+        
+    }
+
+    @media only screen and (max-width: 440px){
+
+        .card {
+            height: 200px;
+              width: 300px;
+              box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.20);
+              border-radius: 20px;
+              min-width: auto;
+              min-height: auto;
+          }
+        #frontCard {
+            min-width: auto;
+            min-height: auto;
+            z-index: 1;
+            bottom: 100px;
+            right: 37px;
+            top: -116px;
+        }
+        .flag{
+            width: 76px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 4px !important;
+            margin-top: 4px !important;
+        }
+              
+        #backCard {
+            min-width: auto;
+            min-height: auto;
+            position: relative;
+            left: 5%;
+            
+        }
+        .securityNumber {
+            margin-top: 75px !important;
+            text-align: right;
+            margin-right: 12px;
+        }
+
+    }
+
+
+  /* 
+  @media only screen and (max-width: 580px) {
+      .container {
+          height: 36%;
+          display:flex;
+          flex-direction: column-reverse !important;
+          position: absolute;
+          left: -11% !important;
+          top:20%; 
+      }
+        
+      .card {
+          position: absolute  ;
+          box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.20);
+          border-radius: 20px;
+      }
+      #frontCard {
+          left: 50px !important; 
+      }
+    }
+    @media screen and (width: 540px), 
+    screen and (height: 720px) {
+      .container {
+          height: 49% !important;
+          display:flex;
+          flex-direction: column-reverse !important;
+          position: absolute;
+          left: 1% !important;
+          top:22% !important; 
+      }
+  }
+ 
+@media screen and (width: 540px){
+  .container {
+      height: 49% !important;
+      display:flex;
+      flex-direction: column-reverse !important;
+      position: absolute;
+      left: 1% !important;
+      top:22% !important; 
+  }
+}
+  
+  @media only screen and (min-height: 1000px) {
+    .container {
+        height: 65%;
+        display:flex;
+        flex-direction: column;
+        position: absolute;
+        left: 5%;
+        top:30%; 
+    }
+      
+    .card {
+        height: 230px;
+        width: 350px;
+        position: absolute;
+        box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.20);
+        border-radius: 20px;
+    }
+    
+  }
+    
+  @media screen and (height: 1024px) {
+    .container {
+        height: 49% !important;
+        display:flex;
+        flex-direction: column-reverse !important;
+        position: absolute;
+        left: 0 !important;
+        top:22% !important; 
+    }
+}
+  @media only screen and (max-height: 600px) {
+    .container {
+        height: 93%;
+        display:flex;
+        flex-direction: column;
+        position: absolute;
+        left: 6%;
+        top:10%; 
+    }
+      
+    .card {
+        height: 180px;
+        position: absolute;
+        box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.20);
+        border-radius: 20px;
+    }
+    
+  } */

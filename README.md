@@ -45,10 +45,12 @@ You can just clone it by copying the git command below:
 git clone https://github.com/SaadHaider708/react-vite-cc-form.git
 ```
 
+
 or just download the zip file, extranct it and open the project folder with your IDE then proceed to the next step.
 
 
-When you project is clonned you can open it up using your IDE and run this command in your terminal which will install all the required dependencies
+
+When your project is cloned you can open it up using your IDE and run this command in your terminal which will install all the required dependencies
 ```bash
 npm install
 ```
@@ -62,15 +64,6 @@ npm run dev
 ```
 
 After doing its thing, it should open up a new window otherwise in the terminal (VSCode) it should give you the address to go to in my case it was **localhost:5171**
-
-#### Bonus:
-
-I case you want to bundle the app, it's just as simple, no Webpack no Parcel no need to configure anything just enter the following command in your terminal.
-
-```bash
-npm run build
-```
-***Thats it!!***
 
 ## What's mising?
 
